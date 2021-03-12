@@ -119,13 +119,13 @@ body{
 
 #tommy .foto{
   padding: 9px;
-  grid-row: 2/3;
+  grid-row: 3/4;
   grid-column: 3/4;
 }
 
 #tommy .texto{
   padding: 9px;
-  grid-row: 3/4;
+  grid-row: 2/3;
   grid-column: 1/6;
 }
 
@@ -158,13 +158,13 @@ body{
 
 #arthur .foto{
   padding: 9px;
-  grid-row: 2/3;
+  grid-row: 3/4;
   grid-column: 3/4;
 }
 
 #arthur .texto{
   padding: 9px;
-  grid-row: 3/4;
+  grid-row: 2/3;
   grid-column: 1/6;
 }
 
@@ -175,6 +175,84 @@ body{
 }
 
 #arthur .flecha{
+  padding: 9px;
+  grid-row: 5/6;
+  grid-column: 4/5;
+}
+
+#john{
+  display:grid;
+  border: 1px solid red;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: calc(10vh - 10px) calc(30vh - 10px) calc(50vh - 10px) calc(10vh - 10px);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+#john .titulo{
+  padding: 9px;
+  grid-row: 1/2;
+  grid-column: 3/5;
+}
+
+#john .foto{
+  padding: 9px;
+  grid-row: 3/4;
+  grid-column: 3/4;
+}
+
+#john .texto{
+  padding: 9px;
+  grid-row: 2/3;
+  grid-column: 1/6;
+}
+
+#john .info{
+  padding: 9px;
+  grid-row: 5/6;
+  grid-column: 3/4;
+}
+
+#john .flecha{
+  padding: 9px;
+  grid-row: 5/6;
+  grid-column: 4/5;
+}
+
+#finn{
+  display:grid;
+  border: 1px solid red;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: calc(10vh - 10px) calc(30vh - 10px) calc(50vh - 10px) calc(10vh - 10px);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+#finn .titulo{
+  padding: 9px;
+  grid-row: 1/2;
+  grid-column: 3/5;
+}
+
+#finn .foto{
+  padding: 9px;
+  grid-row: 3/4;
+  grid-column: 3/4;
+}
+
+#finn .texto{
+  padding: 9px;
+  grid-row: 2/3;
+  grid-column: 1/6;
+}
+
+#finn .info{
+  padding: 9px;
+  grid-row: 5/6;
+  grid-column: 3/4;
+}
+
+#finn .flecha{
   padding: 9px;
   grid-row: 5/6;
   grid-column: 4/5;
