@@ -99,5 +99,83 @@ body{
 #container .netflix{
   padding: 9px;
   grid-row: 4/5;
+  grid-column: 4/5;
+}
+
+#tommy{
+  display:grid;
+  border: 1px solid red;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: calc(10vh - 10px) calc(30vh - 10px) calc(50vh - 10px) calc(10vh - 10px);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+#tommy .titulo{
+  padding: 9px;
+  grid-row: 1/2;
+  grid-column: 3/5;
+}
+
+#tommy .foto{
+  padding: 9px;
+  grid-row: 2/3;
   grid-column: 3/4;
+}
+
+#tommy .texto{
+  padding: 9px;
+  grid-row: 3/4;
+  grid-column: 1/6;
+}
+
+#tommy .info{
+  padding: 9px;
+  grid-row: 5/6;
+  grid-column: 3/4;
+}
+
+#tommy .flecha{
+  padding: 9px;
+  grid-row: 5/6;
+  grid-column: 4/5;
+}
+
+#arthur{
+  display:grid;
+  border: 1px solid red;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: calc(10vh - 10px) calc(30vh - 10px) calc(50vh - 10px) calc(10vh - 10px);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+#arthur .titulo{
+  padding: 9px;
+  grid-row: 1/2;
+  grid-column: 3/5;
+}
+
+#arthur .foto{
+  padding: 9px;
+  grid-row: 2/3;
+  grid-column: 3/4;
+}
+
+#arthur .texto{
+  padding: 9px;
+  grid-row: 3/4;
+  grid-column: 1/6;
+}
+
+#arthur .info{
+  padding: 9px;
+  grid-row: 5/6;
+  grid-column: 3/4;
+}
+
+#arthur .flecha{
+  padding: 9px;
+  grid-row: 5/6;
+  grid-column: 4/5;
 }
